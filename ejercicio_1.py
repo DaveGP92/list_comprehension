@@ -1,0 +1,1 @@
+#Crea una lista con los cuadrados de los números del 1 al 100.
