@@ -20,3 +20,18 @@ nueva_lista = [num for num in a if num not in b]
 
 print(nueva_lista)
 
+#Ejercicio 5
+
+# A partir de 2 strings (a y b).
+
+# a = "hello"
+# b = "world"
+# crea una lista con las letras que se repiten en ambos strings.
+
+a = "hello"
+b = "world"
+
+letras_repetidas = [letra for letra in a if letra in b]
+
+print(letras_repetidas)
+
