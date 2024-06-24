@@ -3,3 +3,4 @@
 lista_cuadrados = [num * 2 for num in range(1, 101)]
 
 print(lista_cuadrados)
+
