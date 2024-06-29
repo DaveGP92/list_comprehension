@@ -3,6 +3,12 @@
 # tuples = [('a', 1), ('b', 2), ('c', 3)]
 # Crea un diccionario utilizando una dictionary comprehension.
 
+tuples = [('a', 1), ('b', 2), ('c', 3)]
+
+nuevo_dict = dict([item for item in tuples])
+print(nuevo_dict)
+
+
 
 
 #Ejercicio 2 
