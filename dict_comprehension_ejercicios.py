@@ -25,3 +25,9 @@ print(nuevo_dict)
 #     'p'; 1,
 #     'l'; 1,
 # }
+
+palabra = "Excelente".lower()
+
+dict_comprehension = {letra: palabra.count(letra) for letra in palabra}
+
+print(dict_comprehension)
